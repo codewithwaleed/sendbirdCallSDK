@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "next build"
   },
   "dependencies": {
     "next": "13.3.1",
